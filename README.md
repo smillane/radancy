@@ -1,8 +1,8 @@
-# radancy
+# Radancy
 
 To start, run `docker compose up`
 
-##Example API Endpoints
+### Example API Endpoints
 
 localhost:8080
 
