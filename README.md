@@ -37,3 +37,5 @@ PUT<br />
 header: username, value: sean<br />
 
 For transactions, only positive numbers and a maximum of 2 decimal places are allowed.
+For users, username's are unique.
+AccountID's are generated with UUID, although if using a DB, would be generated in there, with additional fields, such as "account name" that would be mutable.
