@@ -6,34 +6,34 @@ To start, run `docker compose up`
 
 localhost:8080
 
-create user
-POST
-/user/
-BODY:sean
+create user<br />
+POST<br />
+/user/<br />
+BODY:sean<br />
 
-get accounts information
-GET
-/accounts/
-header: username, value: sean
+get accounts information<br />
+GET<br />
+/accounts/<br />
+header: username, value: sean<br />
 
-create account
-POST
-/accounts/
-header: username, value: sean
+create account<br />
+POST<br />
+/accounts/<br />
+header: username, value: sean<br />
 
-delete account
-DELETE
-/accounts/
-header: username, value: sean
+delete account<br />
+DELETE<br />
+/accounts/<br />
+header: username, value: sean<br />
 
-Deposit transaction
-PUT
-/transactions/{accountID}/{transactionValue}/deposit
-header: username, value: sean
+Deposit transaction<br />
+PUT<br />
+/transactions/{accountID}/{transactionValue}/deposit<br />
+header: username, value: sean<br />
 
-Withdraw transaction
-PUT
-/transactions/{accountID}/{transactionValue}/withdraw
-header: username, value: sean
+Withdraw transaction<br />
+PUT<br />
+/transactions/{accountID}/{transactionValue}/withdraw<br />
+header: username, value: sean<br />
 
 For transactions, only positive numbers and a maximum of 2 decimal places are allowed.
