@@ -31,7 +31,7 @@ header: username, value: sean
 Delete Account
 ```
 DELETE
-/accounts/
+/accounts/{accountID}
 header: username, value: sean
 ```
 \
