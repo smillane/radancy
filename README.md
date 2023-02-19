@@ -1,4 +1,4 @@
-# Radancy
+# Radancy, Banking System Test
 
 To start, run `docker compose up`
 
