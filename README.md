@@ -14,7 +14,7 @@ POST
 BODY:sean
 ```
 \
-Get Accounts Information
+Get Accounts
 ```
 GET
 /accounts/
