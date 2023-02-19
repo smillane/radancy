@@ -5,6 +5,7 @@ To start, run `docker compose up`
 ### Example API Endpoints
 
 localhost:8080
+
 \
 create user
 ```
