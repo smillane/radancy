@@ -7,42 +7,42 @@ To start, run `docker compose up`
 localhost:8080
 
 \
-create user
+Create User
 ```
 POST
 /user/
 BODY:sean
 ```
 \
-get accounts information
+Get Accounts Information
 ```
 GET
 /accounts/
 header: username, value: sean
 ```
 \
-create account
+Create Account
 ```
 POST
 /accounts/
 header: username, value: sean
 ```
 \
-delete account
+Delete Account
 ```
 DELETE
 /accounts/
 header: username, value: sean
 ```
 \
-Deposit transaction
+Deposit Transaction
 ```
 PUT
 /transactions/{accountID}/{transactionValue}/deposit
 header: username, value: sean
 ```
 \
-Withdraw transaction
+Withdraw Transaction
 ```
 PUT
 /transactions/{accountID}/{transactionValue}/withdraw
