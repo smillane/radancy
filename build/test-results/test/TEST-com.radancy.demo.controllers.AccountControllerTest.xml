@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radancy.demo.controllers.AccountControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-02-19T01:31:27" hostname="SEAN" time="0.027">
+  <properties/>
+  <testcase name="shouldReturnOneAccountWithDecimalsInBalance()" classname="com.radancy.demo.controllers.AccountControllerTest" time="0.01"/>
+  <testcase name="shouldReturnOneAccountWithNoBalance()" classname="com.radancy.demo.controllers.AccountControllerTest" time="0.002"/>
+  <testcase name="shouldReturnEmptyMapAfterDeletingAccount()" classname="com.radancy.demo.controllers.AccountControllerTest" time="0.003"/>
+  <testcase name="shouldReturnEmptyMap()" classname="com.radancy.demo.controllers.AccountControllerTest" time="0.003"/>
+  <testcase name="shouldReturnOneAccountWith10000Balance()" classname="com.radancy.demo.controllers.AccountControllerTest" time="0.003"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.2)
+
+2023-02-18T20:31:27.430-05:00 DEBUG 21684 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4cc8d70d
+2023-02-18T20:31:27.669-05:00 DEBUG 21684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-18T20:31:27.680-05:00 DEBUG 21684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2023-02-18T20:31:27.684-05:00 DEBUG 21684 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-18T20:31:27.687-05:00 DEBUG 21684 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

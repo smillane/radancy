@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radancy.demo.controllers.UserControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-02-19T01:31:27" hostname="SEAN" time="0.014">
+  <properties/>
+  <testcase name="shouldReturnError()" classname="com.radancy.demo.controllers.UserControllerTest" time="0.005"/>
+  <testcase name="shouldCreateUsers()" classname="com.radancy.demo.controllers.UserControllerTest" time="0.002"/>
+  <testcase name="shouldCreateUser()" classname="com.radancy.demo.controllers.UserControllerTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.radancy.demo.controllers.TransactionControllerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-02-19T01:31:27" hostname="SEAN" time="0.077">
+  <properties/>
+  <testcase name="shouldWithdraw()" classname="com.radancy.demo.controllers.TransactionControllerTest" time="0.018"/>
+  <testcase name="shouldWithdrawWithDecimals()" classname="com.radancy.demo.controllers.TransactionControllerTest" time="0.006"/>
+  <testcase name="shouldFailWithdrawNegativeNumber()" classname="com.radancy.demo.controllers.TransactionControllerTest" time="0.006"/>
+  <testcase name="shouldFailDepositThreeDecimalPlaces()" classname="com.radancy.demo.controllers.TransactionControllerTest" time="0.004"/>
+  <testcase name="shouldFailWithdrawUnder100Balance()" classname="com.radancy.demo.controllers.TransactionControllerTest" time="0.004"/>
+  <testcase name="shouldFailDepositTooLarge()" classname="com.radancy.demo.controllers.TransactionControllerTest" time="0.004"/>
+  <testcase name="shouldFailWithdrawThreeDecimalPlaces()" classname="com.radancy.demo.controllers.TransactionControllerTest" time="0.004"/>
+  <testcase name="shouldFailDepositNegativeNumber()" classname="com.radancy.demo.controllers.TransactionControllerTest" time="0.004"/>
+  <testcase name="shouldFailWithdrawOver90Percent()" classname="com.radancy.demo.controllers.TransactionControllerTest" time="0.004"/>
+  <testcase name="shouldFailWithdrawInsufficientFunds()" classname="com.radancy.demo.controllers.TransactionControllerTest" time="0.004"/>
+  <testcase name="shouldDepositWithDecimals()" classname="com.radancy.demo.controllers.TransactionControllerTest" time="0.003"/>
+  <testcase name="shouldDeposit10000()" classname="com.radancy.demo.controllers.TransactionControllerTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
